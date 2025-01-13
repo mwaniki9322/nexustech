@@ -1,0 +1,221 @@
+a{
+    color: #4457dc;
+}
+a:hover{
+    text-decoration: none;
+    color: #354DC4;
+}
+[v-cloak] {
+  display: none;
+}
+.btn-sm{
+    font-size: 12px;
+}
+.btn1{
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 30px 8px 30px;
+    border-radius: 4px;
+    transition: 0.5s;
+    color: #deeafd;
+    background: #4457DC;
+    box-shadow: 0 8px 28px rgba(68, 87, 220, 0.2);
+    border: none;
+    height: 2.5rem;
+    text-decoration: none;
+    font-family: "Nunito", sans-serif;
+}
+
+.btn1:hover {
+    background: #354DC4;
+    box-shadow: 0 8px 28px rgba(53, 77, 196, 0.3);
+    color: #deeafd;
+    text-decoration: none;
+}
+.btn2{
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 30px 8px 30px;
+    border-radius: 4px;
+    transition: 0.5s;
+    color: #4457DC!important;
+    background: transparent;
+    border: 1px solid #4457DC;
+    height: 2.5rem;
+    text-decoration: none;
+}
+.btn2:hover {
+    text-decoration: none;
+    border: 1px solid #4457DC;
+    color: #deeafd!important;
+    background: #4457DC;
+    box-shadow: 0 8px 28px rgba(68, 87, 220, 0.2);
+}
+.btn-primary{
+    background: #4457DC;
+    border: 1px solid #4457DC;
+}
+.btn-primary:hover{
+    background: #354DC4;
+    border: 1px solid #354DC4;
+}
+.btn{
+    color: #deeafd;
+    font-family: "Nunito", sans-serif;
+}
+.card{
+    border: none;
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.01);
+}
+.line-on-side{
+    margin: 20px 0;
+}
+.line-on-side .line{
+    display: inline-block; height: 1px; width: 100%; background: #d2d9de
+}
+.line-on-side .txt{
+    font-size: 13px
+}
+
+.breadcrumb{
+    background: transparent;
+    margin: 0;
+    font-size: 14px;
+}
+.breadcrumb .breadcrumb-item, .breadcrumb .breadcrumb-item a{
+    font-family: "Nunito", sans-serif;
+}
+.breadcrumb .breadcrumb-item::before {
+  content: "-";
+}
+.breadcrumb .breadcrumb-item:first-of-type::before{
+    content: none;
+}
+.news-topics .topic{
+    margin-bottom: 20px;
+}
+.news-topics .topic i{
+    font-size: 16px;
+}
+/* Blog posts */
+.blogs-block .post{
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
+    font-family: "Nunito", sans-serif;
+}
+.blogs-block .post .post-photo {
+    position: relative;
+    overflow: hidden;
+}
+.blogs-block .post .post-info {
+    padding: 5px 10px 5px 10px;
+}
+
+.blogs-block .post .post-info h4{
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #0f394c;
+}
+
+.blogs-block .post .post-info span {
+  font-size: 13px;
+  font-weight: 400;
+  color: #3a3d3b;
+}
+.blogs-block .post .author{
+  padding: 10px;
+}
+.blogs-block .post .author a{
+    color: #4457DC;
+}
+.blogs-block .post .author img{
+  width: 30px;
+  border-radius: 50%;
+}
+.blogs-block .post .author span{
+  margin-left: 3px;
+}
+.more-blog-posts .item {
+    margin-bottom: 40px;
+}
+.more-blog-posts .item:hover{
+    border-left: #4457DC 2px solid;
+    padding-left: 5px;
+    transition: 0.3s padding ease;
+}
+/*
+Pagination
+ */
+.pagination{
+    font-size: 12px;
+    margin-top: 20px;
+}
+.pagination .btn{
+    font-size: 10px;
+    margin-right: 5px;
+}
+.pagination .current{
+    margin-right: 5px;
+}
+/* filters */
+.filters{
+    margin-top: 16px;
+}
+.filters .nav-item{
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+.filters .nav-item a{
+    color: #444444;
+    font-family: "Nunito", sans-serif;
+}
+.filters .nav-item:hover, .n-active{
+    border-left: #4457dc 3px solid;
+    background: #f8f9fa;
+}
+/* Titles */
+.page-title{
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #0f3142;
+}
+/* Search form */
+.search-form{
+    width: 400px;
+}
+.search-form input.form-control{
+    box-shadow: none;
+    border-radius: 2px;
+    font-size: 14px;
+    font-family: "Nunito", sans-serif;
+}
+.search-form input.form-control:focus{
+     border: solid 1px #4457DC;
+    box-shadow: none;
+}
+.search-form button{
+    background: #4457DC;
+    color: #deeafd;
+}
+@media (max-width: 768px) {
+  .search-form {
+    width: 80%;
+  }
+}
+ .carousel-indicators li {
+    display: inline-block;
+    height: 3px;
+    transform: translateY(50px);
+    text-indent: 0;
+    cursor: pointer;
+    background-color: #4457DC;
+}
